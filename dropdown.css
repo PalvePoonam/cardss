@@ -1,0 +1,100 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: "Monoton", sans-serif;
+}
+nav{
+    background-color: black;
+}
+#container{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    color: red;
+    font-size:20px;
+    display: block;
+}
+/* img{
+    position: relative;
+    top: 0px;
+    left: 0px;
+} */
+/* img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
+/* img{
+    position: sticky;
+    top: 0px;
+    left: 0px;
+} */
+/* img{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+} */
+/* h1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
+/* h1{
+    position: relative;
+    top: 0;
+    left: 541px;
+} */
+/* h1{
+    position: sticky;
+    top: 20px;
+    left: 0px;
+} */
+/* h1{
+    position: fixed;
+    top: 0;
+    left: 0px;
+} */
+/* #parent{
+    background-color: aqua;
+    height: 200px;
+}
+h1{
+    color: chocolate;
+    margin: 0;
+}
+/* #parent:hover{
+    background-color: yellow;
+} */
+/* #parent:hover h1{
+   background-color: green;
+} */ 
+
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: yellow;
+    position: absolute;
+    top: 63px;
+    display: none;
+}
+#drop:hover #menu{
+    display: block;
+}
+#child{
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+    display: none;
+    position: absolute;
+    top: 63px;
+    list-style: none;
+}
+#dad:hover #child{
+    display: block;
+}
